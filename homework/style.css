@@ -1,0 +1,35 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+#blogWrap {
+  background-color: black;
+  color: white;
+  width: 100vw;
+  height: 50vh;
+}
+#navBar {
+  background-color: black;
+}
+.commentButton {
+  float: bottom;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: 100px 100px 200px;
+}
+
+.comment {
+  border: 1px solid;
+  margin: 10px;
+}
+
+.contentsDetail {
+  border: solid 1px;
+  width: 100vw;
+  height: 10vh;
+}
