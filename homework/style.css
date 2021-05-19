@@ -14,16 +14,29 @@ body {
 #navBar {
   background-color: black;
 }
-.commentButton {
-  float: bottom;
-}
 
 .info {
   display: grid;
-  grid-template-columns: 100px 100px 200px;
+  grid-template-columns: 100px 100px auto;
+}
+
+#comments {
+  overflow: scroll;
+  height: 40vh;
+}
+
+.delete {
+  width: 50px;
+  margin-left: 10px;
+  justify-self: right;
 }
 
 .comment {
+  border: 1px solid;
+  margin: 10px;
+}
+
+#mycomment {
   border: 1px solid;
   margin: 10px;
 }
@@ -32,4 +45,29 @@ body {
   border: solid 1px;
   width: 100vw;
   height: 10vh;
+}
+
+.utilButton {
+  padding: 5px 20px 5px 20px;
+  border: none;
+  border-radius: 20px;
+}
+
+#mycomment {
+  cursor: pointer;
+}
+
+#mycommentTextArea {
+  display: grid;
+  grid-template-columns: 700px 50px;
+}
+
+#mycommentText {
+  resize: none;
+}
+
+#mycommentButton {
+  background-color: red;
+  border: 1px solid;
+  color: white;
 }
